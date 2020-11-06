@@ -1,7 +1,7 @@
 ## Portfolio Website
 
 Portfolio built using React. 
-[jamesoddy.dev](jamesoddy.dev)
+[jamesoddy.dev](www.jamesoddy.dev)
 
 ### Tech Stack
 
