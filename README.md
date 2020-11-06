@@ -1,6 +1,6 @@
 ## Portfolio Website
 
-Portfolio built using React. 
+Portfolio built using React.
 [jamesoddy.dev](jamesoddy.dev)
 
 ### Tech Stack
@@ -9,7 +9,8 @@ Portfolio built using React.
 - HTML
 - Styled Components
 
-### Hosting
+### Infrastructure
 
-- Namecheap Stellar Plus Host package
+- Namecheap Stellar Host package
 - .dev domain
+- Cloudfare SSL Certificate providing HTTPS security
