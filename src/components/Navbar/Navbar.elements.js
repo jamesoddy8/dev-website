@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #8DCEE2;
+  background: black;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -33,6 +33,10 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+
+  &:hover {
+    border-bottom: 4px solid #FF62A9;
+  };
 `;
 
 export const NavIcon = styled(GoFileBinary)`
@@ -78,7 +82,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 4px solid #4b59f7;
   }
 
   @media screen and (max-width: 960px) {

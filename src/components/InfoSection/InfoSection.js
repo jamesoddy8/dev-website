@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container } from '../../globalStyles';
-import { InfoSec, InfoRow, InfoColumn, TextWrapper } from './InfoSection.elements';
+import { Container, Button } from '../../globalStyles';
+import { InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './InfoSection.elements';
+import { Link } from 'react-router-dom';
 
-const InfoSection = ({ lightBg, imgStart }) => {
+const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, lightTextDesc, buttonLabel, description, headline, topLine, img, alt, start }) => {
   return (
     <>
       <InfoSec lightBg={lightBg}>
@@ -15,10 +16,15 @@ const InfoSection = ({ lightBg, imgStart }) => {
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
               <Link to='/sign-up'>
                 <Button big fontBig primary={primary}>
-                  {buttonLabel}
+                  {buttonLabel} SIGN IN BITCHES
                 </Button>
               </Link>
               </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
