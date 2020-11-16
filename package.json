@@ -1,5 +1,6 @@
 {
   "name": "dev-website",
+  "homepage": "https://jamesoddy.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,4 +1,3 @@
-// Opening //
 export const homeObjOne = {
   lightBg: false,
   primary: true,
@@ -13,10 +12,9 @@ export const homeObjOne = {
   img: require('../../images/svg1.svg'),
   alt: 'an image is missing',
   start: '',
-  buttonHidden: false
+  buttonHidden: true
 };
 
-// Projects //
 export const homeObjTwo = {
   lightBg: true,
   primary: false,
@@ -24,7 +22,7 @@ export const homeObjTwo = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  buttonLabel: '',
+  buttonLabel: false,
   description: 'New portfolio work...',
   headline: 'Projects',
   topLine: "Let's get coding!",
@@ -34,7 +32,6 @@ export const homeObjTwo = {
   buttonHidden: true
 };
 
-// Languages //
 export const homeObjThree = {
   lightBg: false,
   primary: true,
@@ -42,7 +39,7 @@ export const homeObjThree = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  buttonLabel: 'Hello',
+  buttonLabel: '',
   description: 'Languages I have used?',
   headline: 'Languages',
   topLine: "What's your React(ion)?!",
@@ -52,7 +49,6 @@ export const homeObjThree = {
   buttonHidden: true
 };
 
-// Skills //
 export const homeObjFour = {
   lightBg: true,
   primary: false,

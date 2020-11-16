@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 `;
 
@@ -27,6 +27,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? '#8DBEF8' : '#344CB9')};
+  display: ${({ buttonHidden }) => (buttonHidden ? 'none' : 'inline-block')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
   color: #fff;

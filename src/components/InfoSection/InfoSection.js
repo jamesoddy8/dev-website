@@ -3,7 +3,7 @@ import { Container, Button } from '../../globalStyles';
 import { InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './InfoSection.elements';
 import { Link } from 'react-router-dom';
 
-const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, lightTextDesc, buttonLabel, description, headline, topLine, img, alt, start }) => {
+const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, lightTextDesc, buttonLabel, description, headline, topLine, img, alt, start, buttonHidden }) => {
   return (
     <>
       <InfoSec lightBg={lightBg}>
@@ -15,8 +15,8 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, ligh
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
               <Link to='/sign-up'>
-                <Button big fontBig primary={primary}>
-                  {buttonLabel} SIGN IN BITCHES
+                <Button big fontBig primary={primary} buttonHidden={buttonHidden}>
+                  {buttonLabel}
                 </Button>
               </Link>
               </TextWrapper>

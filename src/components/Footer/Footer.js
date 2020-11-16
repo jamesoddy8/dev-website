@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer, FooterLinksWrapper, FooterLinksItems, FooterLinkTitle, FooterLink } from './Footer.elements';
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, Form, FormInput, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, SocialIcon } from './Footer.elements';
 
 const Footer = () => {
   return (
@@ -20,34 +20,36 @@ const Footer = () => {
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
-          <FooterLinksItems>
+          <FooterLinkItems>
             <FooterLinkTitle>About me</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Link 1</FooterLink>
             <FooterLink to='/'>Link 2</FooterLink>
             <FooterLink to='/'>Link 3</FooterLink>
-          </FooterLinksItems>
-          <FooterLinksItems>
+          </FooterLinkItems>
+          <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Link 1</FooterLink>
             <FooterLink to='/'>Link 2</FooterLink>
             <FooterLink to='/'>Link 3</FooterLink>
-          </FooterLinksItems>
-          <FooterLinksItems>
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
+          <FooterLinkItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Link 1</FooterLink>
             <FooterLink to='/'>Link 2</FooterLink>
             <FooterLink to='/'>Link 3</FooterLink>
-          </FooterLinksItems>
-          <FooterLinksItems>
+          </FooterLinkItems>
+          <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Link 1</FooterLink>
             <FooterLink to='/'>Link 2</FooterLink>
             <FooterLink to='/'>Link 3</FooterLink>
-          </FooterLinksItems>
+          </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
@@ -66,7 +68,7 @@ const Footer = () => {
               <SocialIconLink href='/' target="_blank" aria-label="Instagram">
               <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href={'https://github.com/jamesoddy8'} target="_blank" aria-label="GitHub">
+              <SocialIconLink href={'https://github.com/jamesoddy8'} aria-label="GitHub">
               <FaGithub />
               </SocialIconLink>
             </SocialIcons>

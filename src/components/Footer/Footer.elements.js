@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { GoFileBinary } from 'react-icons/go';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
@@ -22,7 +23,7 @@ export const FooterSubscription =  styled.section`
 `
 
 export const FooterSubHeading = styled.p`
-  font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande', 'Lucinda Sans', Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 24px;
   font-size: 24px;
 `;
@@ -81,7 +82,7 @@ export const FooterLinksWrapper = styled.div`
   }
 `;
 
-export const FooterLinksItems = styled.div`
+export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -129,4 +130,36 @@ export const SocialMediaWrap = styled.div`
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
-`
+`;
+
+export const SocialLogo = styled(Link)`
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+`;
+
+export const SocialIcon = styled(GoFileBinary)`
+  margin-right: 10px;
+`;
+
+export const WebsiteRights = styled.small`
+  color: #fff;
+  margin-bottom: 16px;
+`;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
+
+export const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 24px;
+`;
