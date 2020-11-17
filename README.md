@@ -8,6 +8,7 @@ Portfolio built using React.
 - React
 - HTML
 - Styled Components
+- JS
 
 ### Infrastructure
 
