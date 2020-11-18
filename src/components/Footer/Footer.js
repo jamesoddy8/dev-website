@@ -8,7 +8,7 @@ const Footer = () => {
     <FooterContainer>
     <FooterSubscription>
       <FooterSubHeading>
-        Contact me for here at any of these links.
+        Contact me here or at any of these links.
       </FooterSubHeading>
       <FooterSubText>
         You can contact me at any time.
@@ -18,7 +18,7 @@ const Footer = () => {
       <Button fontBig>Send your interest</Button>
       </Form>
       </FooterSubscription>
-      <FooterLinksContainer>
+      {/* <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>About me</FooterLinkTitle>
@@ -51,16 +51,10 @@ const Footer = () => {
             <FooterLink to='/'>Link 3</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
-      </FooterLinksContainer>
+      </FooterLinksContainer> */}
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to="/">
-            <SocialIcon>
-              James Oddy
-            </SocialIcon>
-            <WebsiteRights>
-              James Oddy 2020 ©
-            </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href={'https://www.linkedin.com/in/james-oddy-a203b8188/'} target="_blank" aria-label="Linkedin">
               <FaLinkedin />
@@ -75,6 +69,12 @@ const Footer = () => {
           </SocialLogo>
         </SocialMediaWrap>
       </SocialMedia>
+      {/* <SocialIcon>
+        James Oddy
+      </SocialIcon> */}
+      <WebsiteRights>
+        James Oddy 2020 ©
+      </WebsiteRights>
     </FooterContainer>
   );
 };

@@ -5,9 +5,13 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
 }
 `;
+
+  // alternative fonts //
+  // font-family: 'Playfair Display', serif;
+
 
 export const Container = styled.div`
   z-index: 1;

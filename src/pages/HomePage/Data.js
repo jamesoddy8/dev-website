@@ -7,7 +7,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   buttonLabel: 'Get Started',
-  description: 'Hello, my name is James and I am a junior software developer. I trained at Makers Academy - an intensive 12 week bootcamp',
+  description: 'Hello, my name is James and I am a software developer. I trained at Makers Academy - an intensive 12 week bootcamp and have four years worth of public relations and marketing experience.',
   headline: 'Full-Stack Software Engineer',
   topLine: 'Ready for work!',
   img: require('../../images/svg1.svg'),

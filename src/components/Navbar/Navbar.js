@@ -27,12 +27,12 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff'}}>
+      <IconContext.Provider value={{ color: 'black'}}>
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
-            james oddy
+            James Oddy
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -50,7 +50,7 @@ const Navbar = () => {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
-                  <Button primary>Contact</Button>
+                  <Button primary>Email</Button>
                 </NavBtnLink>
               ) : (
                 <NavBtnLink to='/sign-up'>
