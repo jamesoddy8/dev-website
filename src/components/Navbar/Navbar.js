@@ -49,13 +49,13 @@ const Navbar = () => {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
-                  <Button primary>Email</Button>
+                  <NavBtnLink to='/contact'>
+                  <Button primary>Contact</Button>
                 </NavBtnLink>
               ) : (
-                <NavBtnLink to='/sign-up'>
+                <NavBtnLink to='/contact'>
               <Button fontBig primary>
-                SIGN UP
+                Contact
               </Button></NavBtnLink>
               )}
               </NavItemBtn>

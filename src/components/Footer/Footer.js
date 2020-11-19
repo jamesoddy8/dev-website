@@ -6,7 +6,7 @@ import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, F
 const Footer = () => {
   return (
     <FooterContainer>
-    <FooterSubscription>
+    {/* <FooterSubscription>
       <FooterSubHeading>
         Contact me here or at any of these links.
       </FooterSubHeading>
@@ -17,7 +17,7 @@ const Footer = () => {
         <FormInput name="email" type="email" placeholder="Your Email"/>
       <Button fontBig>Send your interest</Button>
       </Form>
-      </FooterSubscription>
+      </FooterSubscription> */}
       {/* <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>

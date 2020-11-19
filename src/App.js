@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/HomePage/Home';
 import Projects from './pages/Projects/Projects';
 import Languages from './pages/Languages/Languages';
-import Signup from './pages/Signup/Signup';
+import Contact from './pages/Contact/Contact';
 import { Navbar, Footer } from './components';
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/projects" exact component={Projects} />
         <Route path="/languages" exact component={Languages} />
-      <Route path="/sign-up" exact component={Signup} />
+      <Route path="/contact" exact component={Contact} />
       </Switch>
       <Footer />
     </Router>
