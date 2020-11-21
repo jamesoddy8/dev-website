@@ -1,7 +1,6 @@
 import React from 'react';
 import emailjs from "emailjs-com";
-import { Form, FormInput } from '../../components/ContactForm/ContactForm.elements';
-import { Button } from "../../globalStyles";
+import { Form, FormInput, Button, FormTextInput } from '../../components/ContactForm/ContactForm.elements';
 
 export default function ContactUs() {
 
@@ -20,19 +19,19 @@ export default function ContactUs() {
 
   return(
     <Form onSubmit={sendEmail}>
-      <div className="col-8 form-group mx-auto">
+      <div className="input1">
         <FormInput type="text" placeholder="Name" name="name"/>
       </div>
-      <div className="col-8 form-group pt-2 mx-auto">
+      <div className="input2">
         <FormInput type="email" placeholder="Email Address" name="email"/>
       </div>
-      <div className="col-8 form-group pt-2 mx-auto">
+      <div className="input3">
         <FormInput type="text" placeholder="Subject" name="subject"/>
       </div>
-      <div className="col-8 pt-3 mx-auto">
-        <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+      <div className="input4">
+        <FormTextInput id="" cols="30" rows="8" placeholder="Your message" name="message"></FormTextInput>
       </div>
-      <Button type="submit">Send Message</Button>
+      <Button type="submit" className="submitbutton">Send Message</Button>
     </Form>
   )
 };

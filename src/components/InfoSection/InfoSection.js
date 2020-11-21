@@ -14,7 +14,7 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, ligh
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-              <Link to='/sign-up'>
+              <Link to='/contact'>
                 <Button big fontBig primary={primary} buttonHidden={buttonHidden}>
                   {buttonLabel}
                 </Button>

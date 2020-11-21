@@ -1,3 +1,4 @@
+import React from 'react';
 export const homeObjOne = {
   lightBg: false,
   primary: true,
@@ -35,17 +36,18 @@ export const homeObjTwo = {
 export const homeObjThree = {
   lightBg: false,
   primary: true,
-  imgStart: '',
+  imgStart: 'start',
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
   buttonLabel: '',
-  description: 'Languages I have used?',
-  headline: 'Languages',
-  topLine: "What's your React(ion)?!",
+  description: <a href="http://second-life-app.herokuapp.com/">Click here for the demo</a>,
+  headline: 'Second Life Website',
+  topLine: "",
   img: require('../../images/svg3.svg'),
   alt: 'an image is missing',
-  start: 'false'
+  start: 'false',
+  buttonHidden: true
 };
 
 export const homeObjFour = {
