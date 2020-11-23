@@ -15,3 +15,6 @@ Portfolio built using React.
 - Namecheap Stellar Host package
 - .dev domain
 - Cloudfare SSL Certificate providing HTTPS security
+
+
+- Build a chat bot for potential employers to ask questions (about me)?
