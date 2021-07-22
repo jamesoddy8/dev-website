@@ -73,7 +73,7 @@ const Footer = () => {
         James Oddy
       </SocialIcon> */}
       <WebsiteRights>
-        James Oddy 2020 ©
+        James Oddy 2021 ©
       </WebsiteRights>
     </FooterContainer>
   );
