@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jamenjlt/public_html/
+    - export DEPLOYPATH=/home/jamenjlt/public_html/dev-website
     - /bin/cp /build/* $DEPLOYPATH
