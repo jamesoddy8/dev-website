@@ -56,13 +56,13 @@ const Footer = () => {
         <SocialMediaWrap>
           <SocialLogo to="/">
             <SocialIcons>
-              <SocialIconLink href={'https://www.linkedin.com/in/james-oddy-a203b8188/'} target="_blank" aria-label="Linkedin">
+              <SocialIconLink to={'https://www.linkedin.com/in/james-oddy-a203b8188/'} target="_blank" aria-label="Linkedin">
               <FaLinkedin />
               </SocialIconLink>
-              <SocialIconLink href='/' target="_blank" aria-label="Instagram">
+              <SocialIconLink to='/' target="_blank" aria-label="Instagram">
               <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href={'https://github.com/jamesoddy8'} aria-label="GitHub">
+              <SocialIconLink to={'https://github.com/jamesoddy8'} aria-label="GitHub">
               <FaGithub />
               </SocialIconLink>
             </SocialIcons>
